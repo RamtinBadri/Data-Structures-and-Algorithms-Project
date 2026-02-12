@@ -20,11 +20,11 @@ This project implements and benchmarks the following approaches to understand th
 
 | Algorithm | Build Time | Query Time | Space Complexity | Best Use Case |
 | :--- | :---: | :---: | :---: | :--- |
-| **Simple (Naive)** | $O(N)$ | $O(N)$ | $O(N)$ | Small arrays, one-off queries |
+| **Simple (Naive)** | $O(1)$ | $O(N)$ | $O(N)$ | Small arrays, one-off queries |
 | **Sparse Table** | $O(N \log N)$ | $O(1)$ | $O(N \log N)$ | **Static** data, massive query volume |
 | **Segment Tree** | $O(N)$ | $O(\log N)$ | $O(N)$ | **Dynamic** data (updates allowed) |
 | **Block Decomp.** | $O(N)$ | $O(\sqrt{N})$ | $O(N)$ | Memory constrained systems |
-| **Creative (Hybrid)** | $O(N)$ | $O(\sqrt{N})$ | $O(N)$ | Optimized block approach |
+| **Creative** | $O(N)$ | $O(\sqrt{N})$ | $O(N)$ | Optimized block approach |
 
 > **Note:** While Sparse Table offers the fastest query time ($O(1)$), it requires significantly more preprocessing time and memory. Segment Trees offer the best balance if the array values needed to change (Dynamic RMQ).
 
