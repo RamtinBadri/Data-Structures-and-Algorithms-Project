@@ -26,7 +26,7 @@ This project implements and benchmarks the following approaches to understand th
 | **Block Decomp.** | $O(N)$ | $O(\sqrt{N})$ | $O(N)$ | Memory constrained systems |
 | **Creative** | $O(N)$ | $O(\sqrt{N})$ | $O(N)$ | Optimized block approach |
 
-> **Note:** While Sparse Table offers the fastest query time ($O(1)$), it requires significantly more preprocessing time and memory. Segment Trees offer the best balance if the array values needed to change (Dynamic RMQ).
+> **Note:** While Sparse Table offers the fastest query time O(1), it requires significantly more preprocessing time and memory. Segment Trees offer the best balance if the array values needed to change (Dynamic RMQ).
 
 ## Getting Started
 
