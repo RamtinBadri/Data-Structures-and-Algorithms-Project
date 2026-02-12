@@ -6,7 +6,7 @@ A comprehensive benchmarking project analyzing five different data structures an
 
 ## Overview
 
-The **Range Minimum Query (RMQ)** problem asks: *Given an array $A$ and two indices $L$ and $R$, what is the minimum value in the subarray $A[L \dots R]$?*
+The **Range Minimum Query (RMQ)** problem asks: *Given an array A and two indices L and R, what is the minimum value in the subarray A[L ... R]?*
 
 This project implements and benchmarks the following approaches to understand the trade-offs between preprocessing time (Build) and retrieval speed (Query):
 
